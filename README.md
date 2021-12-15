@@ -4,7 +4,7 @@ A easy-to-use and ready example to use PHP-based Mezon Router.
 
 ## Why?
 
-It's fastest router!
+It's fastest PHP router!
 
 ## Reasons to use
 
