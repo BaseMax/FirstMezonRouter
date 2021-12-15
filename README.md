@@ -42,3 +42,13 @@ Array
 )
 ```
 
+`/28959485-blondes-bitches-prefer-black-cocks-14.html`
+```
+28959485-blondes-bitches-prefer-black-cocks-14.html
+Array
+(
+    [digit] => 28959485
+    [name] => blondes-bitches-prefer-black-cocks-14
+)
+```
+
