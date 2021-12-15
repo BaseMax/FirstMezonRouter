@@ -31,6 +31,10 @@ $router->addRoute('/[i:digit]-[s:name].html', function(string $route, array $par
 // $callback = $router->getCallback('/100-test.html');
 // var_dump($callback);
 
-// Run it!
+// Run and Test it!
 $router->callRoute('/');
 $router->callRoute('/100-test.html');
+
+// TODO
+// $path = $_SERVER[".."];
+// $router->callRoute($path);
