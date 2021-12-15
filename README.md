@@ -6,6 +6,8 @@ A easy-to-use and ready example to use PHP-based Mezon Router.
 
 It's fastest PHP router!
 
+More benchmarks can be found [here](https://github.com/alexdodonov/mezon-router-benchmark).
+
 ## Reasons to use
 
 **The mezon/router is:**
