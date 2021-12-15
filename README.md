@@ -1,4 +1,6 @@
-# FirstMezonRouter
+# First Mezon-Router
+
+A easy-to-use and ready example to use PHP-based Mezon Router.
 
 ## Using
 
