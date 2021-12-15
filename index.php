@@ -1,10 +1,21 @@
 <?php
-define('LOAD', 1);
-require "_load.php";
-use \Mezon\Router;
+// Require composer autoloader
+require __DIR__ . '/vendor/autoload.php';
+
+// Create Router instance
 $router = new \Mezon\Router\Router();
 
-$router->addRoute('/static-route/', 'MySite::someStaticMethod');
+// Define routes
+$router->addRoute('/', function(string $route) {
+    print "$route\n";
+    print "Hello, World!\n";
+}, 'GET');
+$router->addRoute('/[i:digit]-[s:name].html', function(string $route, array $parameters) {
+    print "$route\n";
+    print_r($parameters);
+}, 'GET');
+
+// $router->addRoute('/static-route/', 'MySite::someStaticMethod');
 $router->addRoute('/contacts/', function(){}, 'POST'); // this handler will be called for POST requests
 $router->addRoute('/contacts/', function(){}, 'GET');  // this handler will be called for GET requests
 $router->addRoute('/contacts/', function(){}, 'PUT');  // this handler will be called for PUT requests
@@ -15,5 +26,7 @@ $router->addRoute('/contacts/', function(){}, 'PATCH');  // this handler will be
 $router->addRoute('/*/', function(){});
 $router->addRoute('/index/', function(){});
 
-$callback = $router->getCallback('/static-route/');
-var_dump($callback());
+// Run it!
+// $callback = $router->getCallback('/');
+$callback = $router->getCallback('/100-test.html');
+var_dump($callback);
