@@ -35,6 +35,6 @@ $router->addRoute('/[i:digit]-[s:name].html', function(string $route, array $par
 $router->callRoute('/');
 $router->callRoute('/100-test.html');
 
-// TODO
-// $path = $_SERVER[".."];
+// Run it!
+// $path = $_SERVER["REQUEST_URI"];
 // $router->callRoute($path);
