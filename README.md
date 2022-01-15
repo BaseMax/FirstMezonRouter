@@ -8,6 +8,14 @@ It's fastest PHP router!
 
 More benchmarks can be found [here](https://github.com/alexdodonov/mezon-router-benchmark).
 
+## Installation
+
+Just type:
+
+```bash
+$ composer require mezon/mezon
+```
+
 ## Reasons to use
 
 **The mezon/router is:**
