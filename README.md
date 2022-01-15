@@ -62,3 +62,6 @@ Array
 )
 ```
 
+## TODO
+
+Add example to use mezon router without composer.
