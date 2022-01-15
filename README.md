@@ -14,6 +14,8 @@ Just type:
 
 ```bash
 $ composer require mezon/mezon
+or
+$ composer require mezon/router
 ```
 
 ## Reasons to use
